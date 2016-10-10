@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "node server.js",
     "test": "node ./public/built/test.js",
     "eslint": "./node_modules/.bin/eslint public/form/*.js",
     "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
