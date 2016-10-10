@@ -1,0 +1,102 @@
+.form {
+  display: block;
+  width: 600px;
+  margin: auto;
+  font-size: 32px;
+  color: #fff;
+
+  &__label{
+    font-size: 12px;
+    font-family: "OpenSansRegular";
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  &__input {
+    font-family: "OpenSansLight";
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    width: auto;
+    font-size: 28px;
+    color: #fff;
+  }
+  &__input::-moz-placeholder {
+    color: #8adfce;
+  }
+  &__input::-webkit-input-placeholder {
+    color: #8adfce;
+  }
+  &__input_low {
+    width: 34px;
+  }
+  &__input_middle {
+    width: 50px;
+  }
+  &__input_large {
+    width: 70px;
+  }
+  &__telephone{
+    display: inline-block;
+    margin-right: 40px;
+  }
+  &__price{
+    display: inline-block;
+    position: relative;
+  }
+  &__submit{
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 1px;
+    font-size: 12px;
+    padding: 6px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #1bb186;
+    cursor: pointer;
+  }
+  &__submit:hover{
+    opacity: 0.8;
+  }
+  &__price__input{
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 62px;
+  }
+  &__price__span{
+    font-size: 24px;
+    color: #8adfce;
+  }
+  &__submit_disabled{
+    cursor: default;
+    background-color: #8adfce;
+  }
+  &__submit_disabled:hover{
+    opacity: 1;
+  }
+  &__price__warning{
+    font-size: 13px;
+    position: absolute;
+    top: 92px;
+    padding: 4px 15px;
+    color: #1bb186;
+    background-color: #8adfce;
+    left: 30px;
+    border-radius: 1px;
+    line-height: 15px;
+    text-align: justify;
+  }
+  &__price__warning:after{
+    content: '';
+    position: absolute;
+    left: 79px;
+    top: -25px;
+    border: 15px solid transparent;
+    border-bottom: 10px solid #8adfce;
+  }
+  &_error{
+    color: rgb(183, 0, 0);
+  }
+}

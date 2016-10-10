@@ -2,7 +2,8 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: {
-    'bundle': ["./public/main.js"],
+    'test': "./test.js",
+    'bundle': ["./public/index.js"],
   },
   output: {
     path: "./public/built",
@@ -32,7 +33,7 @@ module.exports = {
     ]
   },
   resolve: {
-    modulesDirectories: ['node_modules', 'bower_components'],
+    modulesDirectories: ['node_modules'],
     extensions: ['', '.js', '.jsx']
   },
   plugins: [
