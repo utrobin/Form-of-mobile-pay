@@ -4,17 +4,16 @@
 ```sh
 $ npm install
 ```
-
 Собираем файлы
 ```sh
-npm run webpack-prod
+$ npm run webpack-prod
 ```
 
 Проходим тесты
 ```sh
-npm run test
+$ npm run test
 ```
 Запускаем сервер
 ```sh
-npm run server
+$ npm run server
 ```
